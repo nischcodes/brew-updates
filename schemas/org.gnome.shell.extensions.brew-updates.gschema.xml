@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+    <schema id="org.gnome.shell.extensions.brew-updates" path="/org/gnome/shell/extensions/brew-updates/">
+        <!-- Main Settings -->
+        <key type="b" name="update-auto-check">
+            <default>true</default>
+            <summary>Indicates if the extensions should automaticly search for updates</summary>
+        </key>
+        
+        <key type="b" name="update-auto-notify">
+            <default>true</default>
+            <summary>Indicates if the extensions should notify for updates</summary>
+        </key>
+
+        <key type="u" name="update-auto-check-interval">
+            <default>60</default>
+            <summary>Time in minutes to check for updates</summary>
+        </key>
+    </schema>
+</schemalist>

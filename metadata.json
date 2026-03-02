@@ -1,0 +1,19 @@
+{
+	"uuid": "brew-updates@nischcodes.github.io",
+	"extension-id": "brew-updates",
+	"gettext-domain": "brew-updates",
+	"name": "Brew Updates",
+	"description": "Shows number of outdated brew packages in the top panel. Click to open terminal and run brew upgrade.",
+	"settings-schema": "org.gnome.shell.extensions.brew-updates",
+	"session-modes": [
+		"unlock-dialog",
+		"user"
+	],
+	"shell-version": [
+	    "48",
+        "49",
+        "50"
+    ],
+	"url": "https://github.com/nischcodes/brew-updates",
+	"version": 1
+}
