@@ -96,11 +96,9 @@ journalctl /usr/bin/gnome-shell -f
 1. Clone the repo (see Installation).
 2. Watch for changes while developing:
 ```bash
-gnome-extensions enable homebrew-updates@yourdomain
-# In another terminal
-tail -f ~/.local/share/gnome-shell/extensions/homebrew-updates@yourdomain/*.log
+gnome-extensions enable brew-updates@nischcodes.github.io
 ```
-3. Submit PRs – please keep the ES‑module import style and update metadata.json if you add support for newer GNOME versions.
+3. Submit PRs – please update metadata.json if you add support for newer GNOME versions.
 
 ### License
 GNU GPL Version 2 – feel free to fork, modify, and redistribute. Attribution to the original author (nisch) is appreciated.
